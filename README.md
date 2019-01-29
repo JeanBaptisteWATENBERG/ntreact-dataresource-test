@@ -3,4 +3,4 @@
 ## Limitation 
 
  - JSON depth of 1 - nested objects will make the component rendering fail
- - Very slow rendering - seems unusable
+ - Very slow rendering in dev - need to check why, prod is very fast
