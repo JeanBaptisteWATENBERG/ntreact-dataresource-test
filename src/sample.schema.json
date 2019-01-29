@@ -1,0 +1,33 @@
+{
+    "pandas_version": "0.20.0",
+    "primaryKey": [],
+    "fields": [
+        {
+            "name": "id",
+            "type": "integer",
+            "format": "int64"
+        },
+        {
+            "name": "name",
+            "type": "string",
+            "example": "doggie"
+        },
+        {
+            "name": "photoUrls",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        {
+            "name": "status",
+            "type": "string",
+            "description": "pet status in the store",
+            "enum": [
+                "available",
+                "pending",
+                "sold"
+            ]
+        }
+    ]
+}
